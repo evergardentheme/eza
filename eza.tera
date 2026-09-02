@@ -13,8 +13,8 @@ colourful: true
 
 filekinds:
   normal: {foreground: "{{text.hex}}"}
-  directory: {foreground: "{{accent.hex}}"}
-  symlink: {foreground: "{{blue.hex}}"}
+  directory: {foreground: "{{blue.hex}}"}
+  symlink: {foreground: "{{pink.hex}}"}
   pipe: {foreground: "{{subtext1.hex}}"}
   block_device: {foreground: "{{red.hex}}"}
   char_device: {foreground: "{{red.hex}}"}
