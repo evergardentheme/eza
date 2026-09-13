@@ -1,6 +1,6 @@
 <h3 align="center">
   <img src="https://codeberg.org/evergarden/.profile/raw/branch/main/assets/logo-circle.png" width="100" alt="Logo"/><br/>
-  Evergarden for <a href="https://github.com/eza-community/eza">eza</a>
+  Evergarden for <a href="https://github.com/eza-community/eza">Eza</a>
 </h3>
 
 <p align="center">
@@ -40,19 +40,18 @@
 
 ### Usage
 
-1. Download your chosen variant into `$XDG_CONFIG_HOME/eza/theme.yml`
+Download your chosen variant from `themes/` to `$XDG_CONFIG_HOME/eza/theme.yml`
 
 ### Thanks to <3
 
-- [evergarden](https://codeberg.org/evergarden)
 - [holly](https://codeberg.org/aquifolly)
-- [catppuccin/eza](https://github.com/catppuccin/eza)
-- [Andrey (ankddev)](https://github.com/ankddev)
+- [Andrey](https://github.com/ankddev)
+- [catppuccin](https://github.com/catppuccin/eza)
 
 <hr>
 
 <p align="center">
-  <a href="https://codeberg.org/evergarden/eza/src/COPYING">
-    <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=LICENSE&message=EUPL-1.2&colorA=2B3337&colorB=AFD9E6"/>
+  <a href="https://codeberg.org/evergarden/eza/src/LICENSE">
+    <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=LICENSE&message=Apache-2.0&colorA=2B3337&colorB=AFD9E6"/>
   </a>
 </p>
