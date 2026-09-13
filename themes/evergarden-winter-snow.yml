@@ -28,24 +28,24 @@ perms:
   attribute: {foreground: "#839e9a"}
 
 size:
-  major: {foreground: "#96b4aa"}
-  minor: {foreground: "#b3e6db"}
-  number_byte: {foreground: "#adc9bc"}
-  number_kilo: {foreground: "#96b4aa"}
-  number_mega: {foreground: "#b2caed"}
+  major: {foreground: "#adc9bc"}
+  minor: {foreground: "#96b4aa"}
+  number_byte: {foreground: "#96b4aa"}
+  number_kilo: {foreground: "#adc9bc"}
+  number_mega: {foreground: "#fae6ef"}
   number_giga: {foreground: "#d2bdf3"}
   number_huge: {foreground: "#d2bdf3"}
-  unit_byte: {foreground: "#96b4aa"}
-  unit_kilo: {foreground: "#b3e6db"}
-  unit_mega: {foreground: "#d2bdf3"}
+  unit_byte: {foreground: "#839e9a"}
+  unit_kilo: {foreground: "#96b4aa"}
+  unit_mega: {foreground: "#fae6ef"}
   unit_giga: {foreground: "#d2bdf3"}
-  unit_huge: {foreground: "#b3e3ca"}
+  unit_huge: {foreground: "#fae6ef"}
 
 users:
   user_you: {foreground: "#f8f9e8"}
   user_root: {foreground: "#f57f82"}
   user_other: {foreground: "#f57f82"}
-  group_yours: {foreground: "#96b4aa"}
+  group_yours: {foreground: "#adc9bc"}
   group_other: {foreground: "#839e9a"}
   group_root: {foreground: "#f57f82"}
 
@@ -59,39 +59,39 @@ git:
   deleted: {foreground: "#f57f82"}
   renamed: {foreground: "#b3e3ca"}
   typechange: {foreground: "#f3c0e5"}
-  ignored: {foreground: "#6f8788"}
+  ignored: {foreground: "#58686d"}
   conflicted: {foreground: "#f7a182"}
 
 git_repo:
-  branch_main: {foreground: "#96b4aa"}
+  branch_main: {foreground: "#afd9e6"}
   branch_other: {foreground: "#d2bdf3"}
   git_clean: {foreground: "#cbe3b3"}
   git_dirty: {foreground: "#f57f82"}
 
 security_context:
-  colon: {foreground: "#58686d"}
-  user: {foreground: "#6f8788"}
+  colon: {foreground: "#6f8788"}
+  user: {foreground: "#96b4aa"}
   role: {foreground: "#d2bdf3"}
-  typ: {foreground: "#4a585c"}
+  typ: {foreground: "#f5d098"}
   range: {foreground: "#d2bdf3"}
 
 file_type:
-  image: {foreground: "#f5d098"}
-  video: {foreground: "#f57f82"}
-  music: {foreground: "#cbe3b3"}
-  lossless: {foreground: "#b3e3ca"}
-  crypto: {foreground: "#6f8788"}
+  image: {foreground: "#b3e6db"}
+  video: {foreground: "#d2bdf3"}
+  music: {foreground: "#f3c0e5"}
+  lossless: {foreground: "#fae6ef"}
+  crypto: {foreground: "#b3e3ca"}
   document: {foreground: "#f8f9e8"}
-  compressed: {foreground: "#f3c0e5"}
+  compressed: {foreground: "#f5d098"}
   temp: {foreground: "#f57f82"}
   compiled: {foreground: "#afd9e6"}
-  build: {foreground: "#4a585c"}
+  build: {foreground: "#96b4aa"}
   source: {foreground: "#b2caed"}
 
-punctuation: {foreground: "#58686d"}
+punctuation: {foreground: "#6f8788"}
 date: {foreground: "#f5d098"}
 inode: {foreground: "#96b4aa"}
-blocks: {foreground: "#58686d"}
+blocks: {foreground: "#839e9a"}
 header: {foreground: "#f8f9e8"}
 octal: {foreground: "#b3e3ca"}
 flags: {foreground: "#d2bdf3"}
@@ -99,5 +99,4 @@ flags: {foreground: "#d2bdf3"}
 symlink_path: {foreground: "#b3e6db"}
 control_char: {foreground: "#afd9e6"}
 broken_symlink: {foreground: "#f57f82"}
-broken_path_overlay: {foreground: "#4a585c"}
-
+broken_path_overlay: {foreground: "#f57f82"}

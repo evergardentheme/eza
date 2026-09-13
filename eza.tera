@@ -39,24 +39,24 @@ perms:
   attribute: {foreground: "{{overlay2.hex}}"}
 
 size:
-  major: {foreground: "{{subtext0.hex}}"}
-  minor: {foreground: "{{skye.hex}}"}
-  number_byte: {foreground: "{{subtext1.hex}}"}
-  number_kilo: {foreground: "{{subtext0.hex}}"}
-  number_mega: {foreground: "{{blue.hex}}"}
+  major: {foreground: "{{subtext1.hex}}"}
+  minor: {foreground: "{{subtext0.hex}}"}
+  number_byte: {foreground: "{{subtext0.hex}}"}
+  number_kilo: {foreground: "{{subtext1.hex}}"}
+  number_mega: {foreground: "{{cherry.hex}}"}
   number_giga: {foreground: "{{purple.hex}}"}
   number_huge: {foreground: "{{purple.hex}}"}
-  unit_byte: {foreground: "{{subtext0.hex}}"}
-  unit_kilo: {foreground: "{{skye.hex}}"}
-  unit_mega: {foreground: "{{purple.hex}}"}
+  unit_byte: {foreground: "{{overlay2.hex}}"}
+  unit_kilo: {foreground: "{{subtext0.hex}}"}
+  unit_mega: {foreground: "{{cherry.hex}}"}
   unit_giga: {foreground: "{{purple.hex}}"}
-  unit_huge: {foreground: "{{aqua.hex}}"}
+  unit_huge: {foreground: "{{cherry.hex}}"}
 
 users:
   user_you: {foreground: "{{text.hex}}"}
   user_root: {foreground: "{{red.hex}}"}
   user_other: {foreground: "{{red.hex}}"}
-  group_yours: {foreground: "{{subtext0.hex}}"}
+  group_yours: {foreground: "{{subtext1.hex}}"}
   group_other: {foreground: "{{overlay2.hex}}"}
   group_root: {foreground: "{{red.hex}}"}
 
@@ -70,39 +70,39 @@ git:
   deleted: {foreground: "{{red.hex}}"}
   renamed: {foreground: "{{aqua.hex}}"}
   typechange: {foreground: "{{pink.hex}}"}
-  ignored: {foreground: "{{overlay1.hex}}"}
+  ignored: {foreground: "{{overlay0.hex}}"}
   conflicted: {foreground: "{{orange.hex}}"}
 
 git_repo:
-  branch_main: {foreground: "{{subtext0.hex}}"}
+  branch_main: {foreground: "{{snow.hex}}"}
   branch_other: {foreground: "{{purple.hex}}"}
   git_clean: {foreground: "{{green.hex}}"}
   git_dirty: {foreground: "{{red.hex}}"}
 
 security_context:
-  colon: {foreground: "{{overlay0.hex}}"}
-  user: {foreground: "{{overlay1.hex}}"}
+  colon: {foreground: "{{overlay1.hex}}"}
+  user: {foreground: "{{subtext0.hex}}"}
   role: {foreground: "{{purple.hex}}"}
-  typ: {foreground: "{{surface2.hex}}"}
+  typ: {foreground: "{{yellow.hex}}"}
   range: {foreground: "{{purple.hex}}"}
 
 file_type:
-  image: {foreground: "{{yellow.hex}}"}
-  video: {foreground: "{{red.hex}}"}
-  music: {foreground: "{{green.hex}}"}
-  lossless: {foreground: "{{aqua.hex}}"}
-  crypto: {foreground: "{{overlay1.hex}}"}
+  image: {foreground: "{{skye.hex}}"}
+  video: {foreground: "{{purple.hex}}"}
+  music: {foreground: "{{pink.hex}}"}
+  lossless: {foreground: "{{cherry.hex}}"}
+  crypto: {foreground: "{{aqua.hex}}"}
   document: {foreground: "{{text.hex}}"}
-  compressed: {foreground: "{{pink.hex}}"}
+  compressed: {foreground: "{{yellow.hex}}"}
   temp: {foreground: "{{red.hex}}"}
   compiled: {foreground: "{{snow.hex}}"}
-  build: {foreground: "{{surface2.hex}}"}
+  build: {foreground: "{{subtext0.hex}}"}
   source: {foreground: "{{blue.hex}}"}
 
-punctuation: {foreground: "{{overlay0.hex}}"}
+punctuation: {foreground: "{{overlay1.hex}}"}
 date: {foreground: "{{yellow.hex}}"}
 inode: {foreground: "{{subtext0.hex}}"}
-blocks: {foreground: "{{overlay0.hex}}"}
+blocks: {foreground: "{{overlay2.hex}}"}
 header: {foreground: "{{text.hex}}"}
 octal: {foreground: "{{aqua.hex}}"}
 flags: {foreground: "{{purple.hex}}"}
@@ -110,5 +110,4 @@ flags: {foreground: "{{purple.hex}}"}
 symlink_path: {foreground: "{{skye.hex}}"}
 control_char: {foreground: "{{snow.hex}}"}
 broken_symlink: {foreground: "{{red.hex}}"}
-broken_path_overlay: {foreground: "{{surface2.hex}}"}
-
+broken_path_overlay: {foreground: "{{red.hex}}"}
