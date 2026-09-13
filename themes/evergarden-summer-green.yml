@@ -2,8 +2,8 @@ colourful: true
 
 filekinds:
   normal: {foreground: "#2b3034"}
-  directory: {foreground: "#91a77a"}
-  symlink: {foreground: "#8294ad"}
+  directory: {foreground: "#8294ad"}
+  symlink: {foreground: "#c499b8"}
   pipe: {foreground: "#455355"}
   block_device: {foreground: "#c58687"}
   char_device: {foreground: "#c58687"}
@@ -85,6 +85,7 @@ file_type:
   compressed: {foreground: "#c499b8"}
   temp: {foreground: "#c58687"}
   compiled: {foreground: "#7799a3"}
+  build: {foreground: "#ceccbd"}
   source: {foreground: "#8294ad"}
 
 punctuation: {foreground: "#acb5a4"}
